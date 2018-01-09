@@ -2099,7 +2099,7 @@ nav li {
 }
 .box-item .number {
 	position: absolute;
-	font-size: 100px;
+	font-size: 80px;
 	line-height: 210px;
 	text-shadow: 0px 102px 150px rgba(2, 2, 2, 0.75);
 	letter-spacing: -2px;
