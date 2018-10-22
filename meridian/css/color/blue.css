@@ -1,0 +1,68 @@
+a,
+.id-color,
+.list-2-col li:hover a,
+.list-2-col li:hover:before,
+.twitter-widget li a,
+#subheader h1,
+.counter .num,
+h1.id-color,
+h2.id-color,
+.team-list .name,
+.timeline-year .date,
+footer .social i:hover,
+#mainmenu li:hover a,
+.news-item a h3,
+.news-item .fa,
+.pagination li a {
+    color: #87BA2B /*#87BA2B*/;
+}
+
+
+.divider-deco span,
+.box-icon-small i,
+.tiny-border,
+.bg-color,
+.btn-custom,
+.news-list-date .date,
+.feature-box.icon-square>i,
+.owl-custom-nav .btn-next:before,
+.owl-custom-nav .btn-prev:before,
+#testi-carousel-2 blockquote,
+.owl-theme .owl-controls .owl-page.active span,
+#awards-carousel .overlay,
+.side-nav li.active,
+.testi-box-1 blockquote,
+.simple-form input[type=submit],
+.btn-expand:before,
+.faq .icon-search,
+#mainmenu li li a:hover,
+.pagination li.active a,
+.news-item .quote,
+.ex-gallery .small-border,
+#menu-btn,
+.timeline.custom-tl>li>.timeline-badge,
+ul.progress li.active,
+ul.progress li.beforeactive:before,
+.small-border {
+    background-color: #87BA2B;
+}
+
+
+.line-deco span:before,
+.line-deco span:after,
+.box-icon-small .btn-arrow span.line,
+.sub-intro-text span:before,
+.sub-intro-text span:after,
+.crumb span:before,
+.crumb span:after,
+.pagination li.active a {
+    border-color: #87BA2B
+}
+
+ul.progress li.active:after {
+    border-color: transparent transparent transparent #87BA2B;
+}
+
+.arrow-down {
+    border-top: 5px solid #87BA2B;
+}
