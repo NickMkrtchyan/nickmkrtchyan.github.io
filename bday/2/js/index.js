@@ -3,10 +3,10 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 400,
+      "value": 1000,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1000
       }
     },
     "color": {
@@ -22,9 +22,9 @@ particlesJS("particles-js", {
         "nb_sides": 5
       },
       "image": {
-        "src": "http://www.dynamicdigital.us/wp-content/uploads/2013/02/starburst_white_300_drop_2.png",
-        "width": 100,
-        "height": 100
+        "src": "../images/snow.png",
+        "width": 50,
+        "height": 50
       }
     },
     "opacity": {
@@ -38,7 +38,7 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 5,
+      "value": 7,
       "random": true,
       "anim": {
         "enable": false,
@@ -90,8 +90,8 @@ particlesJS("particles-js", {
         }
       },
       "bubble": {
-        "distance": 200,
-        "size": 40,
+        "distance": 20,
+        "size": 20,
         "duration": 2,
         "opacity": 8,
         "speed": 3
