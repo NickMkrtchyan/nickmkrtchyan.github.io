@@ -168,6 +168,7 @@
     }
     .about_info p.about_desc {
         font-size: 16px;
+        text-align: justify;
     }
     .about_info p.about_desc span {
         font-size: 17px;

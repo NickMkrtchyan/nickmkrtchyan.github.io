@@ -818,12 +818,12 @@ header {
    06. SERVICE WRAPPER
 ========================================================================== */
 
-.services {
+.spacing {
     padding: 100px 0;
     background-color: #030303;
 }
 
-.services .section_title {
+.spacing .section_title {
     margin-bottom: 100px;
 }
 
