@@ -560,7 +560,7 @@ h1.section-title::after {
 
 .about-bg {    
     margin-bottom: 50px;
-    padding-top: 50px;
+    margin-top: 50px;
     background: #fff;
     padding: 50px;
 }
