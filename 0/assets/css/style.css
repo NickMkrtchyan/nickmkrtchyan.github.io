@@ -79,7 +79,7 @@ p {
 /*START PRELOADER DESIGN*/
 /*START PRELOADER DESIGN*/
 .preloader {
-    background: #fff;
+    background: #dadada;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -177,7 +177,7 @@ h1.section-title::after {
 
 /*START SCROLL TO TOP*/
 .topcontrol {
-    background: #fff none repeat scroll 0 0;
+    background: #dadada none repeat scroll 0 0;
     border-radius: 30px;
     bottom: 5px;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
@@ -216,7 +216,7 @@ h1.section-title::after {
     border-radius: 0;
     margin-bottom: 0;
     width: 100%;
-    background: #fff;
+    background: #dadada;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -277,7 +277,7 @@ h1.section-title::after {
 }
 
 .menu-top {
-    background: white;
+    background: #dadada;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -298,14 +298,14 @@ h1.section-title::after {
 }
 
 .navbar-default.menu-shrink {
-    background-color: #fff;
+    background-color: #dadada;
     box-shadow: -1px 10px 10px rgba(0, 0, 0, 0.03);
     padding: 10px 0;
     width: 100%;
 }
 
 .navbar-default.menu-shrink {
-    background-color: #fff;
+    background-color: #dadada;
 }
 
 .navbar-default.menu-shrink li a {
@@ -317,12 +317,12 @@ h1.section-title::after {
 }
 
 .navbar-default .navbar-toggle {
-    background: #fff none repeat scroll 0 0
+    background: #dadada none repeat scroll 0 0
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fff
+    background-color: #dadada
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -345,7 +345,7 @@ h1.section-title::after {
 
 @media only screen and (max-width:480px) {
     .menu-top {
-        background-color: #fff;
+        background-color: #dadada;
         color: #333 !important;
         margin-left: 0px;
     }
@@ -363,7 +363,7 @@ h1.section-title::after {
     }
 
     .navbar-default.menu-shrink {
-        background: #fff !important;
+        background: #dadada !important;
     }
 }
 
@@ -382,7 +382,7 @@ h1.section-title::after {
 .home_info {}
 
 .home_info_bg {
-    background: #fff;
+    background: #dadada;
     margin-top: 100px;
     padding: 50px;
 }
@@ -452,7 +452,7 @@ h1.section-title::after {
 
 .social_profile ul li a:hover {
     background: #333f4b;
-    color: #fff;
+    color: #dadada;
     border: 1px solid #333f4b;
 }
 
@@ -561,7 +561,7 @@ h1.section-title::after {
 .about-bg {    
     margin-bottom: 50px;
     margin-top: 50px;
-    background: #fff;
+    background: #dadada;
     padding: 50px;
 }
 
@@ -577,7 +577,7 @@ h1.section-title::after {
 }
 
 .about-info a {
-    background: #fff;
+    background: #dadada;
     border: 2px solid #333;
     padding: 10px 30px;
     display: inline-block;
@@ -611,7 +611,7 @@ h1.section-title::after {
 * ----------------------------------------------------------------------------------------
 */
 .progress-bg {
-    background: #fff;
+    background: #dadada;
     padding: 50px;
     margin-bottom: 50px;
     padding-bottom: 20px;
@@ -683,7 +683,7 @@ h1.section-title::after {
 * ----------------------------------------------------------------------------------------
 */
 .portfolio-bg {
-    background: #fff;
+    background: #dadada;
     padding: 50px;
     margin-bottom: 50px;
     padding-bottom: 20px;
@@ -796,7 +796,7 @@ h1.section-title::after {
 .box .box-content a {
     color: #333f4b;
     margin-top: 10px;
-    background: #fff;
+    background: #dadada;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -879,7 +879,7 @@ h1.section-title::after {
 
 /*project modal*/
 .modal-header button {
-    background: #fff;
+    background: #dadada;
     border: 2px solid #333;
     padding: 3px;
     width: 30px;
@@ -952,13 +952,13 @@ h1.section-title::after {
 * ----------------------------------------------------------------------------------------
 */
 .service-bg {
-    background: #fff;
+    background: #dadada;
     margin-bottom: 50px;
     padding-top: 50px;
 }
 
 .single_service {
-    background: #fff;
+    background: #dadada;
     padding: 60px;
     padding-top: 65px;
     border-radius: 0px;
@@ -1027,7 +1027,7 @@ h1.section-title::after {
 * ----------------------------------------------------------------------------------------
 */
 .timeline-bg {
-    background: #fff;
+    background: #dadada;
     margin-bottom: 50px;
     padding: 50px;
     padding-bottom: 20px;
@@ -1046,7 +1046,7 @@ h1.section-title::after {
 }
 
 .single_timeline {
-    background: #fff;
+    background: #dadada;
     border: 1px solid #eee;
     padding: 20px;
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.08);
