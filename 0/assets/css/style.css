@@ -216,7 +216,6 @@ h1.section-title::after {
     border-radius: 0;
     margin-bottom: 0;
     width: 100%;
-    padding: 20px 0;
     background: #fff;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
