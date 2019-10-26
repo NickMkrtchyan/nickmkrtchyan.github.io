@@ -1651,6 +1651,11 @@ h1.section-title::after {
 
 .footer p {
     text-align: center;
+    color: white;
+}
+.footer p a{
+    text-align: center;
+    color: #afdff7;
 }
 
 /*
