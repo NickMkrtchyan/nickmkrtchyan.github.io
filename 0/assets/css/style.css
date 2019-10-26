@@ -277,7 +277,7 @@ h1.section-title::after {
 }
 
 .menu-top {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    background: white;
 }
 
 .navbar-default .navbar-nav>li>a {
