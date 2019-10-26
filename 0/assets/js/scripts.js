@@ -21,7 +21,7 @@ Version      : 1.0
 				var anchor = $(this);
 				$('html, body').stop().animate({
 					scrollTop: $(anchor.attr('href')).offset().top - 50
-				}, 1500);
+				}, 500);
 				e.preventDefault();
 			});		
 
