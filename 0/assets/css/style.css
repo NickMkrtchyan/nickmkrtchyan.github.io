@@ -1665,6 +1665,6 @@ h1.section-title::after {
 * ----------------------------------------------------------------------------------------
 */
 
-.modal .fade .modal-dialog{
+.modal-dialog{
     width: 800px!important;
 }
