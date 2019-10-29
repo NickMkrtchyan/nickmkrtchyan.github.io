@@ -905,7 +905,7 @@ h1.section-title::after {
 
 .modal-body iframe {
     width: 100%!important;
-    height: 400px!important;
+    height: auto!important;
 }
 
 .modal-body p {
@@ -1664,7 +1664,3 @@ h1.section-title::after {
 * 14.END CONTACT ADDRESS DESIGN
 * ----------------------------------------------------------------------------------------
 */
-
-.modal-dialog{
-    width: 800px!important;
-}
