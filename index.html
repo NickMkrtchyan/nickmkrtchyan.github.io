@@ -18,13 +18,13 @@
 </head>
 <body id="letsGo">
 <div class="preloader">
-   <div class="preloader__status">
-      <div status class="preloader__status-text">I'm {{loaded}} % done!</div>
-      <div class="preloader__status-loader">
-         <div loader :style="loadStyle" class="preloader__status-bar"></div>
-      </div>
-   </div>
+  <div class="pl-l"></div>
+  <div class="pl-r"></div>
+  <div class="pl-line">
+    <div></div>
+  </div>
 </div>
+
 	<!-- /loader -->
 	<p class="rotate-text">About Me About Me About Me About Me </p>
 	<!-- /rotate-text (word length should be larger then window width)-->
@@ -255,6 +255,5 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </body>
 </html>
