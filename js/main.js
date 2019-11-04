@@ -91,12 +91,3 @@
 
 
 })(jQuery);
-
-var _d = document,
-    _p = _d.querySelector('.preloader');
-
-console.log(_p)
-
-setTimeout(function(){
-  _p.classList.add('is-loaded')
-}, 3000)
