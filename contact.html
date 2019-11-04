@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Title -->
-    <title>Nick Mkrtchyan - Showcase</title>
+    <title>Palat - Portfolio Template</title>
     <!-- Favicon -->
     <link href="img/favicon.png" type="image/png" rel="icon">
     <!-- All CSS -->
@@ -17,16 +17,11 @@
     <link href="css/__responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body id="letsGo">
-<div class="preloader">
-   <div class="preloader__status">
-      <div status class="preloader__status-text">I'm {{loaded}} % done!</div>
-      <div class="preloader__status-loader">
-         <div loader :style="loadStyle" class="preloader__status-bar"></div>
-      </div>
-   </div>
-</div>
+	<div class="loader">
+		<p class="loader-text">loading</p>
+	</div>
 	<!-- /loader -->
-	<p class="rotate-text">About Me About Me About Me About Me </p>
+	<p class="rotate-text">Get in touch Get in touch Get in touch </p>
 	<!-- /rotate-text (word length should be larger then window width)-->
 	<div class="main-wrapper">
 		<header>
@@ -34,7 +29,7 @@
 				<div class="row">
 					<div class="col-4">
 						<div class="logo">
-							<a href="index.html">Nick Mkrtchyan</a>
+							<a href="index.html">Palat Marquain</a>
 						</div>
 						<!-- /logo -->
 					</div>
@@ -78,10 +73,10 @@
 					</div>
 					<div class="col-md-4">
 						<div class="link-item link-item-2">
-							<a href="contact.html">
-								<img src="img/contact-sq.jpg" alt="-">
-								<h3>Contact</h3>
-								<p>Just say Hi.<br>or let's discuss about project.</p>
+							<a href="about.html">
+								<img src="img/user-photo-sq.jpg" alt="-">
+								<h3>About</h3>
+								<p>Hey, I'm Palat Marquain.<br>Work as a Front-end Developer.</p>
 								<div class="arrow-right">
 									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
 								</div>
@@ -96,83 +91,49 @@
 		<!-- /header -->
 		<div class="row justify-content-end">
 			<div class="col-md-10">
-				<div class="about-intro">
+				<div class="contact-intro">
 					<div class="row">
-						<div class="col-lg-4 col-md-6 col-sm-5 col-10">
-							<img src="img/user-photo.jpg" alt="" class="img-fluid">
+						<div class="col-lg-6 col-md-9">
+							<h2 class="contact-header" data-aos="fade-up">Talk to me.</h2>
+							<p class="contact-text" data-aos="fade-up" data-aos-delay="200">Get in touch and say hello. Whether you have a work enquiry or simply want to find out more, let’s talk.</p>
 						</div>
 					</div>
+					<form id="contact-form" action="php/mail.php" data-aos="fade-up" data-aos-delay="400">
+						<div class="row">
+							<div class="col-lg-6 col-md-9 order-lg-first order-last">
+								<!-- form message -->
+								<p class="form-message"></p>
+
+								<!-- input field for NAME -->
+								<input class="input_field required" type="text" name="name" placeholder="Your name">
+								<!-- input field for EMAIL -->
+								<input class="input_field required" type="email" name="email" placeholder="Your email">
+								<!-- input field for MESSAGE -->
+								<textarea class="input_field required" name="message" placeholder="Tell me something."></textarea>
+								<!-- button for MESSAGE-SEND -->
+								<button class="form-btn" type="submit">Send Message</button>
+							</div>
+							<div class="col-lg-6 col-md-12 order-lg-last order-first">
+								<div class="contact-info-box">
+									<h5>Email</h5>
+									<p>contact@patal.com</p>
+								</div>
+								<!-- /contact-info-box -->
+								<div class="contact-info-box">
+									<h5>Phone</h5>
+									<p>+1 221 222 33</p>
+								</div>
+								<!-- /contact-info-box -->
+								<div class="contact-info-box">
+									<h5>Address</h5>
+									<p>622 Dixie Path</p>
+									<p>South Tobinchester, NY</p>
+								</div>
+								<!-- /contact-info-box -->
+							</div>
+						</div>
+					</form>
 					<div class="row">
-						<div class="col-md-10">
-							<div class="info-section">
-								<h5 class="section-title">About Me</h5>
-								<p class="about-info-text">I'm a Freelancer Front-end Developer.<br>Based in San Francisco.<br>I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10">
-							<div class="info-section">
-								<h5 class="section-title mb-0" data-aos="fade-up">Expertise</h5>
-								<div class="row no-gutters justify-content-between">
-									<div class="col-md-5">
-										<div class="expertise-item" data-aos="fade-up" data-aos-delay="100">
-											<h5>UI Design</h5>
-											<p>On the web, UI Design generally refers to the visual layout of the elements.</p>
-										</div>
-										<!-- /expertise-item -->
-									</div>
-									<div class="col-md-5">
-										<div class="expertise-item" data-aos="fade-up" data-aos-delay="200">
-											<h5>Front-end Code</h5>
-											<p>On the web, front-end code tells our browser what to do &amp; not to do.</p>
-										</div>
-										<!-- /expertise-item -->
-									</div>
-								</div>
-								<div class="row no-gutters justify-content-between" data-aos-delay="300">
-									<div class="col-md-5">
-										<div class="expertise-item" data-aos="fade-up">
-											<h5>Animation Design</h5>
-											<p>Animation in website design has become inevitable.</p>
-										</div>
-										<!-- /expertise-item -->
-									</div>
-									<div class="col-md-5">
-										<div class="expertise-item" data-aos="fade-up" data-aos-delay="350">
-											<h5>Art Direction</h5>
-											<p>Art director is the charge of the overall visual appearance.</p>
-										</div>
-										<!-- /expertise-item -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- /col-md-10 -->
-						<div class="col-md-10">
-							<div class="info-section">
-								<h5 class="section-title mb-0" data-aos="fade-up">Experience</h5>
-								<div class="row no-gutters justify-content-between">
-									<div class="col-md-5">
-										<div class="experience-item" data-aos="fade-up" data-aos-delay="100">
-											<h5>Junior Front-end Developer</h5>
-											<p>Pulax Studio, San Francisco</p>
-											<p>2018 - present.</p>
-										</div>
-										<!-- /experience-item -->
-									</div>
-									<div class="col-md-5">
-										<div class="experience-item" data-aos="fade-up" data-aos-delay="200">
-											<h5>Front-end Developer Intern</h5>
-											<p>Pulax Studio, San Francisco</p>
-											<p>2017 - 2018.</p>
-										</div>
-										<!-- /experience-item -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- /col-md-10 -->
 						<div class="col-md-12">
 							<div class="info-section socials-buttons">
 								<h5 class="section-title mb-0" data-aos="fade-up">You can find me on</h5>
@@ -212,21 +173,21 @@
 								</div>
 								<!-- /social-item -->
 							</div>
+							<!-- /socials-buttons -->
 						</div>
-						<!-- /col-md-12 -->
 					</div>
 				</div>
-				<!-- /about-intro -->
+				<!-- /contact-wrapper -->
 				
 				<div class="next-page">
 					<div class="row">
 						<div class="col" data-aos="fade-right">
-							<a href="contact.html">
+							<a href="index.html">
 								<div class="arrow-right">
 									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
 								</div>
-								<h2>Contact</h2>
-								<p>Say Hi! or Discuss About Project</p>
+								<h2>Projects</h2>
+								<p>Some of my Awesome Things.</p>
 							</a>
 						</div>
 					</div>
@@ -250,77 +211,9 @@
 		</div>
 	</div>
 	<!-- /main-wrapper -->
-<script type="text/javascript">
-	const vue = new Vue({
-  el: '.preloader',
-  data: {
-    loaded: 0,
-    loading: null,
-    loadStyle: {
-      width: '0%' },
-
-    statusElem: $('[status]'),
-    loader: $('[loader]'),
-    body: $('body') },
-
-  ready() {
-    this.preloader = $(this.$el);
-    this.removeScrolling();
-    this.startLoading();
-  },
-  watch: {
-    loaded() {
-      this.loadStyle.width = `${this.loaded}%`;
-    } },
-
-  methods: {
-    removeScrolling() {
-      this.body.css('overflow', 'hidden');
-    },
-    startLoading() {
-      this.loading = setInterval(this.load, 20);
-    },
-    load() {
-      this.loaded < 100 ? this.loaded++ : this.doneLoading();
-    },
-    doneLoading() {
-      clearInterval(this.loading);
-      this.updateStatus();
-    },
-    updateStatus() {
-      this.statusElem.text('Lets get crazay !');
-      this.loader.fadeOut();
-      this.animatePreloader();
-    },
-    animatePreloader() {
-      let app = this,
-      height = this.preloader.height(),
-      properties = {
-        'margin-top': `-${height}` },
-
-      options = {
-        duration: 1000,
-        easing: 'swing',
-        complete() {
-          app.removePreloader();
-        } };
-
-      this.preloader.delay(500).animate(properties, options);
-    },
-    removePreloader() {
-      this.preloader.remove();
-      this.body.removeAttr('style');
-      this.animateWebsite();
-    },
-    animateWebsite() {
-      console.log('lets get pretty');
-    } } });
-</script>	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.min.js"></script>
+	
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="js/ajax-mail.js"></script>
 </body>
 </html>

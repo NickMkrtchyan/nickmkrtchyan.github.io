@@ -1,0 +1,243 @@
+/*==============================================================================
+
+ * Template Name: Palat - Portfolio Template
+ * Template URI: 
+ * Author: ixtheme - (https://themeforest.net/user/ixtheme)
+ * Description: Portfolio Template
+ * Version: 1.0
+ * Copyright 2018 ixtheme
+
+==============================================================================*/
+
+/* Extra large devices (large desktops, 1330px, 1200px and down) */
+
+@media (max-width: 1330px) {
+    .menu-wrapper {
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    .menu-wrapper.show {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-wrapper {
+        padding-top: 30px;
+    }
+    header nav {
+        padding: 0 15px;
+    }
+    .copyright-text {
+        padding: 60px 15px 70px 15px;
+    }
+    .intro {
+        height: calc(100vh - 30px);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .work-details {
+        padding: 150px 15px 30px 15px;
+    }
+}
+
+/* Large devices (desktops, 991px and down) */
+
+@media (max-width: 991px) {
+    .link-item a {
+        padding: 35px 20px;
+    }
+    .link-item p {
+        margin-bottom: 15px;
+    }
+    .menu-wrapper .col-md-4 {
+        max-width: 50%;
+        flex: 50%;
+        text-align: center;
+    }
+    .link-item h3 {
+        font-size: 21px;
+        margin: 18px 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and down) */
+
+@media (max-width: 767px) {
+    .link-item p {
+        display: none;
+    }
+    .home-intro h2 {
+        font-size: 36px;
+    }
+    .showcase-item {
+        margin-bottom: 30px;
+    }
+    .showcase-item figcaption {
+        font-size: 18px;
+    }
+    .next-page {
+        padding-bottom: 0;
+    }
+    .about-intro {
+        padding: 125px 0 0 0;
+        margin-bottom: 30px;
+    }
+    .info-section {
+        margin-top: 75px;
+    }
+    .socials-buttons {
+        margin-bottom: 30px;
+    }
+    .socials-buttons .section-title {
+        padding-bottom: calc(40px - 3.33%);
+    }
+    .social-item a {
+        width: 30%;
+        padding: 30px 0;
+        margin-right: 3.33%;
+        margin-top: 3.33%;
+    }
+    .social-item span[class^="ti-"] {
+        font-size: 18px;
+    }
+    .about-intro .about-info-text {
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .contact-intro {
+        padding: 125px 0 0 0;
+        margin-bottom: 30px;
+    }
+    .work-details {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .work__details_info .work__title {
+        font-size: 34px;
+    }
+    .work-details {
+        padding: 125px 15px 0 15px;
+    }
+    .work__details_info {
+        margin-bottom: 50px;
+    }
+    .work__details_info_cards .col-md-4 {
+        padding: 0;
+    }
+}
+
+/* Small devices (mobile, 575px and down) */
+@media (max-width: 575px) {
+    header .col-4 {
+        max-width: 60%;
+        flex: 60%;
+    }
+    header .col-8 {
+        max-width: 40%;
+        flex: 40%;
+    }
+    .socials,
+    .vertical-divider {
+        display: none;
+    }
+    .about-intro .about-info-text {
+        font-size: 22px;
+    }
+}
+
+/* extraSmall devices ( 400px and down) */
+@media (max-width: 400px) {
+    .next-page h2 {
+        font-size: 22px;
+    }
+    .next-page a {
+        color: #c4ae91;
+        opacity: 1;
+        padding-left: 55px;
+        transform: skewX(-5deg);
+        -webkit-transform: skewX(-5deg);
+        -moz-transform: skewX(-5deg);
+        -ms-transform: skewX(-5deg);
+        -o-transform: skewX(-5deg);
+    }
+    .next-page a .arrow-right {
+        opacity: 1;
+        transform: translate(0, -50%);
+        -webkit-transform: translate(0, -50%);
+        -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        -o-transform: translate(0, -50%);
+    }
+    .next-page a:hover {
+        padding-left: 55px;
+    }
+    .social-item span:not([class^="ti-"]) {
+        display: none;
+    }
+    .social-item span[class^="ti-"] {
+        margin-bottom: 0;
+    }
+    .menu-wrapper .row.h-100 {
+        height: initial !important;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .menu-wrapper .col-md-4 {
+        max-width: 100%;
+        flex: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .link-item h3 {
+        margin: 12px 0;
+    }
+    .link-item img {
+        height: 50px;
+        width: 50px;
+    }
+    .about-intro, .contact-intro {
+        padding: 100px 0 0 0;
+    }
+    .info-section {
+        margin-top: 70px;
+    }
+    .contact-header {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .about-intro .about-info-text {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    header .col-4 {
+        max-width: 70%;
+        flex: 70%;
+    }
+    header .col-8 {
+        max-width: 30%;
+        flex: 30%;
+    }
+    .experience-item p, .expertise-item p {
+        font-size: 14px;
+    }
+    .link-item a {
+        padding: 25px 20px;
+    }
+    .link-item h3 {
+        margin: 0;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .link-item .arrow-right {
+        display: inline-block;
+        margin-left: 5px;
+    }
+}
