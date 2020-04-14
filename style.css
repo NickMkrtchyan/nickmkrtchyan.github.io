@@ -143,6 +143,10 @@ section {
   padding: 30px 30px 50px; 
 }
 
+.about {
+    min-height: 70rem;
+}
+
 .section-title {
     position: relative;
 }
@@ -273,6 +277,9 @@ section {
     height: 400px;
     width: 100%;
     position: relative;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,108,130,1) 53%, rgba(139,163,168,1) 100%);
+
 }
 
 .header:before {
@@ -311,7 +318,7 @@ section {
 .sector .box {
     display: inline-block;
     border: 1px solid #f8f8f8;
-    padding: 5px 20px;
+    padding: 20px 20px;
 }
 
 .sector .box h1 {
@@ -1137,7 +1144,9 @@ section {
     section {
         margin-bottom: 0;
     }
-
+    .about {
+        min-height: 45rem;
+    }
     a {
         font-size: 13px;
     }
