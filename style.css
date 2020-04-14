@@ -1136,7 +1136,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,108,130,1) 53%, r
 * ------------------------------------- */
 
 @media (max-width: 991px) { 
-
+    .mfp-iframe-holder .mfp-content {
+        line-height: 0;
+        width: 100%;
+        height: 80%;
+        max-width: 900px;
+    }
     body {
         font-size: 12px;
     }
