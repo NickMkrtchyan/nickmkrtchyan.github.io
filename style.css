@@ -421,7 +421,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,108,130,1) 53%, r
     display: block;
     height: 35px;
     line-height: 35px;
-    text-align: right;
+    text-align: left;
 }
 
 .skillbar-bar {
@@ -435,7 +435,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,108,130,1) 53%, r
 
 .skill-bar-percent {
     position:absolute;
-    left:0;
+    right:0;
     top:15px;
     font-size:12px;
     height:35px;
