@@ -429,7 +429,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,108,130,1) 53%, r
     width:0;
     z-index:10;
     position:absolute;
-    right: 0;
+    left: 0;
     background: #101010;
 }
 
