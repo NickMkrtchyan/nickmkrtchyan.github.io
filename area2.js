@@ -303,7 +303,7 @@
 				nationalMode: !0,
 				onlyCountries: [],
 				placeholderNumberType: "MOBILE",
-				preferredCountries: ["us", "gb"],
+				preferredCountries: [],
 				separateDialCode: !1,
 				utilsScript: ""
 			},
